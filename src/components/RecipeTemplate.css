@@ -1,0 +1,230 @@
+.card{
+    height:38rem;
+    width: 70rem;
+    border: 2px solid rgb(127, 130, 127);
+    border-radius: 20px;
+    background: #fffdf5;
+    padding: 30px;
+    margin: 30px;
+    font-family: cursive;
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    
+ 
+}
+
+
+.col1, .col2 {
+  flex: 1;
+}
+
+/* .card img{
+    height: 200px;
+    width: 350px;
+    border-radius: 10px;
+} */
+.card ul {
+  padding-left: 20px;
+}
+
+.card li {
+  text-transform: capitalize;
+  font-size: 18px;
+  list-style-type: "🍽️ "; /* Adds a food plate emoji before each ingredient */
+  /* margin: 5px 0; */
+  font-weight: 500;
+  color: #2c3e50; /* Dark shade for better readability */
+}
+
+.writer{
+    text-transform: uppercase;
+    color: blueviolet;
+    font-family: Helvetica, sans-serif;
+}
+
+/* .directions{
+    height: 10rem;
+    width: 25rem;
+    
+} */
+.directions {
+  background: #fdf2e9;
+  padding: 15px;
+  border-radius: 10px;
+  font-size: 16px;
+  line-height: 1.6;
+  text-transform: none;
+}
+ .closebtn, .deletebtn {
+    top: 10px;
+    cursor: pointer;
+    border: none;
+    padding: 5px 10px;
+    font-size: 16px;
+    border-radius: 5px;
+  }
+  .card h2 {
+    font-size: 20px;
+    color: #2c3e50;
+    margin-top: 10px;
+    border-bottom: 2px solid #f39c12;
+    display: inline-block;
+    padding-bottom: 5px;
+  }
+
+  .deletebtn, .closebtn{
+    right: 10px;
+    height: 50px;
+    width: 50px;
+    background-color:white;
+    border: 2px solid black;
+    color: rgb(0, 0, 0);
+    font-size: larger;
+    margin-left: 10px;
+  }
+  
+  /* .closebtn {
+    right: 50px;
+    height: 50px;
+    width: 50px;
+    background-color: white;
+    color: rgb(3, 3, 3);
+  } */
+  
+  .closebtn:hover, .deletebtn:hover {
+    background-color: rgb(252, 208, 219);
+    opacity: 0.8;
+  } 
+
+  .btngrp{
+    width: 100%;
+    display: flex;
+    position: relative;
+    justify-content: flex-end;
+    gap: 5px;
+  }
+
+   /* General Card Styling */
+/* .card {
+  width: 70rem;
+  border-radius: 20px;
+  background: #fffdf5;
+  padding: 30px;
+  margin: 30px auto;
+  font-family: 'Poppins', sans-serif;
+  text-transform: uppercase;
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease-in-out;
+  position: relative;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.col1 {
+  flex: 1;
+}
+
+.card h1 {
+  font-size: 28px;
+  color: #4a3f35;
+  font-weight: bold;
+}
+
+.writer {
+  font-size: 16px;
+  color: #8e44ad;
+  font-style: italic;
+  margin-bottom: 15px;
+}
+
+.card h2 {
+  font-size: 20px;
+  color: #2c3e50;
+  margin-top: 10px;
+  border-bottom: 2px solid #f39c12;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+.card ul {
+  padding-left: 20px;
+  margin-top: 10px;
+}
+
+.card li {
+  text-transform: capitalize;
+  list-style: disc;
+  font-size: 18px;
+  color: #34495e;
+  line-height: 1.5;
+}
+
+.col2 {
+  flex: 1;
+  text-align: center;
+}
+
+.card img {
+  width: 100%;
+  max-width: 350px;
+  height: auto;
+  border-radius: 10px;
+  border: 2px solid #f39c12;
+  margin-bottom: 15px;
+}
+
+.card p {
+  font-size: 16px;
+  color: #333;
+  line-height: 1.6;
+  text-transform: capitalize;
+}
+
+.closebtn, .deletebtn {
+  position: absolute;
+  top: 15px;
+  cursor: pointer;
+  border: none;
+  padding: 8px 12px;
+  font-size: 16px;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: all 0.3s ease-in-out;
+}
+
+.deletebtn {
+  right: 10px;
+  background-color: #e74c3c;
+  color: white;
+}
+
+.closebtn {
+  right: 60px;
+  background-color: #34495e;
+  color: white;
+}
+
+.closebtn:hover {
+  background-color: #2c3e50;
+}
+
+.deletebtn:hover {
+  background-color: #c0392b;
+}
+
+
+.directions {
+  background: #fdf2e9;
+  padding: 15px;
+  border-radius: 10px;
+  font-size: 16px;
+  line-height: 1.6;
+  text-transform: none;
+}  */

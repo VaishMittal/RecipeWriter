@@ -1,0 +1,36 @@
+.dishes{
+    height: 3rem;
+    width: 14rem;
+    border-radius: 20px;
+    background-color: #C1CFA1  ;
+    border: 2px solid rgb(86, 109, 86);
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    /* text-align: center; */
+    list-style-type: none;
+    margin: 10px;
+}
+.recipeshowbut{
+    height: 4rem;
+    width: 80%;
+    background-color:#fad0d0;
+    color: rgb(49, 82, 49);
+    font-size: 30px;
+    font-weight: 500;
+    padding: 20px;
+    margin: 30px;
+    border-radius: 20px;
+    /* border: 1px solid #413829; */
+
+}
+.recipeshowbut:hover{
+    background-color:#f8e8cf  ;
+}
+.active {
+    border: 4px solid rgb(230, 216, 87);
+    box-shadow: 20px 10px 10px rgba(0, 0, 0, 0.3); 
+    transition: all 0.3s ease-in-out; 
+}
