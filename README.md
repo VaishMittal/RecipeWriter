@@ -2,9 +2,7 @@
 
 A clean and user-friendly React app that lets users **write, view, and explore recipes** with detailed ingredients and cooking instructions. Perfect for food lovers who want to create or find the perfect dish.
 
-> 🔗 [Live Demo on Netlify](https://your-recipe-writer-app.netlify.app/) <!-- Replace with your actual Netlify URL -->
-
----
+> 🔗 [Live Demo on Netlify](https://recipewriter.netlify.app/) 
 
 ## 📸 Screenshot
 
